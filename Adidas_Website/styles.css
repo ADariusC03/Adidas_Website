@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather Sans", sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #1e2227;
+  color: #fff;
+}
+
+/*Content*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 8%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1e2227;
+}
+
+.logo {
+  width: 60px;
+  cursor: pointer;
+}
+
+.nav-icons img {
+  width: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background: #1e2227;
+}
+
+.col-1,
+.col-2 {
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.col-2 {
+  padding-top: 8%;
+}
+
+.col-1 {
+  background: #fff;
+  opacity: 0.7;
+  padding-left: 8%;
+  padding-bottom: 200px;
+}
+
+.col-1 h1 {
+  font-size: 55px;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  font-weight: 700;
+  color: #000;
+}
+
+p {
+  color: #686868;
+  text-indent: 10px;
+  line-height: 1.5;
+}
+
+button {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px 30px;
+  background: maroon;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  margin-left: 70px;
+}
+button:hover {
+  background-color: black;
+  transform: translateY(-5px);
+}
+
+.feature-img {
+  width: 70%;
+  text-align: center;
+  background: #fa7c79;
+  margin-left: 60px;
+}
+
+.feature-img img {
+  width: 90%;
+  transform: rotate(-20deg);
+}
+
+.small-img-row {
+  display: flex;
+  width: 100%;
+  margin: 70px auto 0;
+  justify-content: space-around;
+}
+
+.small-img {
+  width: 80px;
+  height: 80px;
+  background: #ccc;
+}
+
+.small-img img {
+  width: 110px;
+  transform: translate(-50px, 20px) rotate(-20deg);
+  margin-left: 15px;
+}
+
+.small-img:nth-child(1) {
+  background: #555555;
+}
+.small-img:nth-child(2) {
+  background: #339a9a;
+}
+.small-img:nth-child(3) {
+  background: #a0a0a0;
+}
+.small-img:nth-child(4) {
+  background: #c73a52;
+}
+
+.col-2 h2 {
+  position: absolute;
+  right: 54%;
+  top: 16%;
+  font-size: 110px;
+  opacity: 0.5;
+}
